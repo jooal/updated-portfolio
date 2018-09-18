@@ -27,14 +27,22 @@ img {
 #giphy {
   border-radius: 50%;
   height: 250px;
-  width: 350px;
+  width: 250px;
 
 }
+
+#more {display: none;}
 
 #numbers {
   border-radius: 50%;
   height: 250px;
-  width: 350px;
+  width: 250px;
+}
+
+#train {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
 }
 
 hr.star-light,
