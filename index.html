@@ -55,8 +55,9 @@
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.jpg" alt="">
+        <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.jpg" id="profile" alt="">
         <h2 class="font-weight-light mb-0">Full-Stack Web Developer - Marketer - Entrepreneur </h2>
+        <br><br>
       </div>
     </header>
 
@@ -67,40 +68,41 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://jooal.github.io/Gif-App/#">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="img/giphypic.gif" alt="" id="giphy">
             </a>
-            <p>Gif Searcher app utilizing Giphy API, Javascript, Jquery, CSS, Bootstrap, & HTML.<span id="dots">...</span><span id="more"> When the user searches a word, it is added to the button array. The user can click on the button to display the matching Gif's. Clicking on the Gif will animate it.</span></p>
-            <button onclick="myFunction()" id="myBtn">Read more</button>
+            <p style="text-align: center">Gif Searcher App</p>
           </div>
 
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://jooal.github.io/unit-4-game/">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-            <img class="img-fluid" src="img/mathpic.png" alt="" id="numbers">
+              <img class="img-fluid" src="img/mathpic.png" id="numbers" alt="">
             </a>
-            <p>An addition game created with Javascript, Jquery, CSS, Bootstrap, & HTML.<span id="dots1">...</span><span id="more1"> There are four fruit that are randomly assigned a value at the start of each round. The goal is to click on the fruit and add them up to the "Random Number" for that round. The value of the fruits is never displayed so the user has to keep track of their values. The Total must be exactly equal to the Random Number or the player loses.</span></p>
-            <button onclick="myFunction1()" id="myBtn1">Read more</button>
+            <p style="text-align: center">Fruit Game App</p>
           </div>
-          
+
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" target="_blank" href="https://jooal.github.io/train-schedule/">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/trainpic.png" alt="" id="train">
+              <img class="img-fluid" src="img/trainpic.png" id="train" alt="">
             </a>
-            <p>A train scheduling app built using Firebase as a backend database source, HTML, <span id="dots2">...</span><span id="more2"> CSS, Javascript, Bootstrap, Moment.js, and Jquery. This app allows a user to create a train schedule. The user enters the train data and the Javascript algorithms will output calculated train data. The train data stays on the page when refreshed and closed.</span> </p>
-            <button onclick="myFunction2()" id="myBtn2">Read more</button>
+            <p style="text-align: center">Train Scheduling App</p>
           </div>
+
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
@@ -108,31 +110,13 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/game.png" alt="">
+              <img class="img-fluid" src="img/eye-icon.png" id="focus" alt="">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fas fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
+            <p style="text-align: center">Focus: A To-Do App</p>
+            </div>
+
+            
+  
     </section>
 
     <!-- About Section -->
@@ -203,7 +187,8 @@
       </div>
     </section>
 
-  
+    <!-- Footer -->
+
 
     <div class="copyright py-4 text-center text-white">
       <div class="container">
@@ -223,17 +208,21 @@
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
       <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="">
-          <!-- <i class="fa fa-3x fa-times"></i> -->
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
         </a>
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Gif Searcher</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/giphy.jpg" alt="">
+              <img class="img-fluid mb-5" src="img/giphypic.gif" id="mod-gif" alt="">
+              <p class="mb-5">Gif Searcher app utilizing the Giphy API, Javascript, Jquery, CSS, Bootstrap, & HTML. When the user searches a word, it is added to the button array. The user can click on the button to display the matching Gif's. Clicking on the Gif will animate it. Clicking a the Gif again will pause animation.</p>
+              <a href="https://github.com/jooal/Gif-App.git" target="_blank">Github Link</a><br>
+              <a target="_blank" href="https://jooal.github.io/Gif-App/#">Open App</a><br>
+
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <!-- <i class="fa fa-close"></i> -->
+                <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
           </div>
@@ -250,10 +239,12 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Fruit Game</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/mathpic.png" alt="">
+              <p class="mb-5">A number adding game created with Javascript, Jquery, CSS, Bootstrap, & HTML. There are four fruit that are randomly assigned a value at the start of each round. The goal is to click on the fruit and add them up to the "Random Number" for that round. The value of the fruits is never displayed so the user has to keep track of their values. The Total must be exactly equal to the Random Number or the player loses.</p>
+              <a href="https://github.com/jooal/unit-4-game.git" target="_blank">Github Link</a><br>
+              <a target="_blank" href="https://jooal.github.io/unit-4-game/">Open App</a><br>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -263,7 +254,7 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
+    <!-- Portfolio Modal 3-->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -272,32 +263,13 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Train Scheduling App</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+              <img class="img-fluid mb-5" src="img/trainpic.png" alt="">
+              <p class="mb-5">A train scheduling app built using Firebase as a backend database source, HTML, CSS, Javascript, Bootstrap, Moment.js, and Jquery. This app allows a user to create a train schedule. The user enters the train data and the Javascript algorithms will output calculated train data. The train app utilized persistence with a Firebase Database that allows the user to close and refresh the page without losing data.</p><br>
+              <a href="https://github.com/jooal/train-schedule.git" target="_blank">Github Link</a><br>
+              <a target="_blank" href="https://jooal.github.io/train-schedule/">Open App</a><br>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/game.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -306,50 +278,37 @@
         </div>
       </div>
     </div>
+  
 
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!--Portfolio Modal 4-->
+  <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+    <div class="portfolio-modal-dialog bg-white">
+      <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+        <i class="fa fa-3x fa-times"></i>
+      </a>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-secondary text-uppercase mb-0">Focus</h2>
+            <hr class="star-dark mb-5">
+            <img class="img-fluid mb-5" src="img/eye-icon.png" alt="">
+            <p class="mb-5">Focus is a To-Do app to help users keep track of their tasks. Simply fill in the form to submit a task to your to-do list. Firebase was used as a backend database to store the submitted tasks for persistence. Quotes.rest API is used to display random, inspirational quotes. HTML, CSS, Bootstrap, Javascript, Jquery, and AJAX were used to develop this app. You can find ideas for implementation of additional features in the ReadMe on Github.</p><br>
+            <a href="https://github.com/jooal/focus-joo.git" target="_blank">Github Link</a><br>
+            <a href="https://jooal.github.io/focus-joo/" target="_blank">Open App</a><br>
 
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
+            <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <i class="fa fa-close"></i>
+              Close Project</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+
+
+
+ 
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -364,7 +323,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="portfolio.js"></script>
+    <script src="js/freelancer.min.js"></script>
 
   </body>
 
