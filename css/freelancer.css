@@ -8,28 +8,64 @@
 
 .img-fluid {
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
 }
 
 #giphy {
 border-radius: 50%;
-height: 250px;
-width: 250px;
+height: 150px;
+width: 150px;
 
 }
 
 
 #numbers {
 border-radius: 50%;
-height: 250px;
-width: 250px;
+height: 150px;
+width: 150px;
 }
 
 #train {
 border-radius: 50%;
-height: 250px;
-width: 250px;
+height: 150px;
+width: 150px;
+}
+
+#mod-flashstarts {
+  float: right;
+  margin-right: -50px;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+}
+ #mod-opulabs {
+  float: right;
+  margin-right: -50px;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+ }
+
+ #mod-fortress {
+
+  float: right;
+  margin-right: -50px;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+ }
+ #mod-ey {
+  float: right;
+  margin-right: -50px;
+  margin-top: 50px;
+  width: 250px;
+  height: 250px;
+
+ }
+#resume {
+  text-align: left;
+  max-width: 500px;
 }
 
 /*!
@@ -46,7 +82,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+
 h6 {
 font-weight: 700;
 font-family: 'Montserrat';
@@ -297,7 +333,7 @@ font-size: 2rem;
 
 @media (min-width: 768px) {
 .portfolio-modal .portfolio-modal-dialog {
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 5rem;
   margin: 3rem calc(3rem - 8px);
 }
